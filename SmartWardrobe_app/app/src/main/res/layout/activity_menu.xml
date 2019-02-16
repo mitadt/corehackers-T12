@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity"
+
+    android:paddingBottom="3dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="8dp">
+
+    <View
+        android:id="@+id/opacityFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.8"
+        android:background="@android:color/white"></View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="6dip">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/HomeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imgbtnAdd"
+                            style="@style/HomeButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="77dp"
+                            android:adjustViewBounds="true"
+                            android:background="#0000"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/newcloth"/>
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Clothes"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/HomeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imgbtnUsed"
+                            style="@style/HomeButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="77dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:background="#0000"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/usedclothes"/>
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Used Clothes"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/HomeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imgbtnUnused"
+                            style="@style/HomeButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="77dp"
+                            android:adjustViewBounds="true"
+                            android:background="#0000"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/unused"/>
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Unused Clothes"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/HomeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imgbtnAnalyze"
+                            style="@style/HomeButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="77dp"
+                            android:adjustViewBounds="true"
+                            android:background="#0000"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/analysis"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Analysis"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/HomeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imgbtnLogout"
+                            style="@style/HomeButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="77dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:background="#0000"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/logout"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Logout"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

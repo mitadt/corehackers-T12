@@ -1,0 +1,11 @@
+D:\swapnil\SmartWardrobe_service\SmartWardrobe_service\SmartWardrobe_service\bin\SmartWardrobe_service.dll.config
+D:\swapnil\SmartWardrobe_service\SmartWardrobe_service\SmartWardrobe_service\bin\SmartWardrobe_service.dll
+D:\swapnil\SmartWardrobe_service\SmartWardrobe_service\SmartWardrobe_service\bin\SmartWardrobe_service.pdb
+D:\swapnil\SmartWardrobe_service\SmartWardrobe_service\SmartWardrobe_service\obj\Debug\SmartWardrobe_service.dll
+D:\swapnil\SmartWardrobe_service\SmartWardrobe_service\SmartWardrobe_service\obj\Debug\SmartWardrobe_service.pdb
+D:\swapnil\SmartWardrobe_service\SmartWardrobe_service\SmartWardrobe_service\obj\Debug\SmartWardrobe_service.csprojResolveAssemblyReference.cache
+D:\swapnil\SmartWardrobe\SmartWardrobe_service\SmartWardrobe_service\bin\SmartWardrobe_service.dll.config
+D:\swapnil\SmartWardrobe\SmartWardrobe_service\SmartWardrobe_service\bin\SmartWardrobe_service.dll
+D:\swapnil\SmartWardrobe\SmartWardrobe_service\SmartWardrobe_service\bin\SmartWardrobe_service.pdb
+D:\swapnil\SmartWardrobe\SmartWardrobe_service\SmartWardrobe_service\obj\Debug\SmartWardrobe_service.dll
+D:\swapnil\SmartWardrobe\SmartWardrobe_service\SmartWardrobe_service\obj\Debug\SmartWardrobe_service.pdb
